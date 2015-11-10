@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/*  -------------------------------------------------------------
+    Docker images | Nasqueron
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    Author:         Sébastien Santoro aka Dereckson
+    Tags:           blue red foundation flat 960
+    Filename:       app.css
+    Created:        2015-11-10
+    Licence:        Creative Commons BY 4.0
+    -------------------------------------------------------------    */
+
+/*  -------------------------------------------------------------
+    General style
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*  -------------------------------------------------------------
+    Hero
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+#hero {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+
+    background-color: #253237;
+
+    color: #EEEFF7;
+}
+
+#hero .logo {
+    margin-bottom: 1em;
+    text-align: center;
+}
