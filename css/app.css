@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/*  -------------------------------------------------------------
+    Docker images | Nasqueron
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    Author:         Sébastien Santoro aka Dereckson
+    Tags:           blue red foundation flat 960
+    Filename:       app.css
+    Created:        2015-11-10
+    Licence:        Creative Commons BY 4.0
+    -------------------------------------------------------------    */
+
+/*  -------------------------------------------------------------
+    Fonts
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+@font-face {
+    font-family: Batch;
+    src: url('../fonts/batch-icons-webfont.eot');
+    src: url('../fonts/batch-icons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/batch-icons-webfont.woff') format('woff'),
+         url('../fonts/batch-icons-webfont.ttf') format('truetype'),
+         url('../fonts/batch-icons-webfont.svg#batchregular') format('svg');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+.batch {
+    font-family: "Batch";
+    font-size: 16px;
+    line-height: 1;
+}
+
+.batch.large {
+    font-size: 32px;
+    margin-bottom: 0.5em;
+    color: #2C3E50;
+}
+
+.batch:before {
+    content:attr(data-icon);
+}
+
+/*  -------------------------------------------------------------
+    General style
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*  -------------------------------------------------------------
+    Hero
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+#hero {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+
+    background-color: #253237;
+
+    color: #EEEFF7;
+}
+
+#hero .logo {
+    margin-bottom: 1em;
+    text-align: center;
+}
