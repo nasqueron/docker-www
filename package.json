@@ -1,0 +1,13 @@
+{
+	"name": "nasqueron-docker-www",
+	"description": "A website to showcase the Nasqueron Docker images, hosted at docker.nasqueron.org",
+	"version": "0.1.0",
+	"author": "Sébastien Santoro <dereckson@espace-win.org>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nasqueron/docker-www"
+	},
+	"subdomain": "docker",
+	"license": "(MIT OR Apache-2.0 OR BSD-2-Clause)"
+}
+
