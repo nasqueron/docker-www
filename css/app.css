@@ -11,6 +11,38 @@
     -------------------------------------------------------------    */
 
 /*  -------------------------------------------------------------
+    Fonts
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+@font-face {
+    font-family: Batch;
+    src: url('../fonts/batch-icons-webfont.eot');
+    src: url('../fonts/batch-icons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/batch-icons-webfont.woff') format('woff'),
+         url('../fonts/batch-icons-webfont.ttf') format('truetype'),
+         url('../fonts/batch-icons-webfont.svg#batchregular') format('svg');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+.batch {
+    font-family: "Batch";
+    font-size: 16px;
+    line-height: 1;
+}
+
+.batch.large {
+    font-size: 32px;
+    margin-bottom: 0.5em;
+    color: #2C3E50;
+}
+
+.batch:before {
+    content:attr(data-icon);
+}
+
+/*  -------------------------------------------------------------
     General style
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
 

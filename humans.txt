@@ -3,3 +3,13 @@
 /* SITE */
   Standards: HTML5, CSS3
   Software: nano, git, Phabricator
+
+/* ICONS */
+
+Batch by @adamwhitcroft.
+
+The Batch Webfont was added in R1.3.
+
+Big thanks to Matt Allen for his help creating the webfont.
+
+License: http://adamwhitcroft.com/batch/license/
