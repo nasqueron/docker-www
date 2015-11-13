@@ -100,3 +100,90 @@ h3 {
     margin-bottom: 2.5em;
     text-align: center;
 }
+
+/*  -------------------------------------------------------------
+    Footer
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+footer {
+    margin-top: 2.5em;
+    padding-top: 2.5em;
+    background-color: #253237;
+
+    border-top: 11px solid black;
+
+    color: #EEEFF7;
+}
+
+footer h4 {
+    color: #445878;
+}
+
+footer p, footer ul {
+    font-size: 0.75em;
+}
+
+footer p strong {
+    color: white;
+}
+
+footer a {
+    color: #DDDEFF;
+}
+
+footer a:hover, footer a:visited:hover {
+    color: #C94234;
+
+    font-weight: 900;
+}
+
+footer a:visited {
+    color: #EEEFF7;
+}
+
+footer hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+footer .footer-info {
+    padding-bottom: 1em;
+}
+
+footer .sep {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer .db {
+    background-image: url(../img/footer_db.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+footer ul {
+    padding-left: 1em;
+}
+
+footer .copyright {
+    background-image: url(../img/binding_dark.png);
+
+    border-top: 4px solid black;
+
+    padding: 1em 0 0.25em 0;
+    color: white;
+}
+
+footer .copyright p {
+    color: #ccc;
+    font-size: 11.2px;
+}
+
+footer .copyright .batch {
+    font-size: 12px;
+    padding-right: 0.35em;
+}
+
+footer .copyright a {
+    color: #EEEFF7 !important;
+}
