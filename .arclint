@@ -1,0 +1,12 @@
+{
+  "linters": {
+    "css": {
+      "type": "csslint",
+      "include": "(\\.css)"
+    },
+    "json": {
+      "type": "jsonlint",
+      "include": "(\\.json$)"
+    }
+  }
+}
