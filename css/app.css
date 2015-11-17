@@ -108,15 +108,13 @@ h3 {
 footer {
     margin-top: 2.5em;
     padding-top: 2.5em;
-    background-color: #253237;
+    background-color: #01B1AA;
 
-    border-top: 11px solid black;
-
-    color: #EEEFF7;
+    border-top: 0.2em solid black;
 }
 
 footer h4 {
-    color: #445878;
+    color: #2e1a47;
 }
 
 footer p, footer ul {
@@ -128,17 +126,13 @@ footer p strong {
 }
 
 footer a {
-    color: #DDDEFF;
+    color: #04070A;
 }
 
 footer a:hover, footer a:visited:hover {
-    color: #C94234;
+    color: #01FDF9;
 
     font-weight: 900;
-}
-
-footer a:visited {
-    color: #EEEFF7;
 }
 
 footer hr {
@@ -175,7 +169,7 @@ footer .copyright {
 }
 
 footer .copyright p {
-    color: #ccc;
+    color: #01B1AA;
     font-size: 11.2px;
 }
 
@@ -186,4 +180,8 @@ footer .copyright .batch {
 
 footer .copyright a {
     color: #EEEFF7 !important;
+}
+
+footer .poem {
+     color: #ccc;
 }
